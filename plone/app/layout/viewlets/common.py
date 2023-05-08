@@ -319,7 +319,7 @@ class GlobalSectionsViewlet(ViewletBase):
             if portal_tabs and brain_parent_path == navtree_path:
                 # This should be already provided by the portal_tabs_view
                 continue
-            if brain.exclude_from_nav and not context_path.startswith(brain_path):
+            if not context_path.startswith(brain_path):
                 # skip excluded items if they're not in our context path
                 continue
             url = brain.getURL()
