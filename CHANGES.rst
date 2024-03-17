@@ -8,6 +8,17 @@ Changelog
 
 .. towncrier release notes start
 
+4.0.8.post0 (2024-03-17)
+------------------------
+
+Breaking changes:
+
+
+- Drop reference to exclude_from_nav.
+  On der Freitag we don't have that catalog column.
+  [gforcada] (#1)
+
+
 4.0.8 (2023-12-22)
 ------------------
 
